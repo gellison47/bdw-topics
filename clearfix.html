@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Clearfix: What I Learned</title>
+	</head>
+
+	<body>
+		<h1>Clearfix</h1>
+		<h2><a href="http://www.tjkdesign.com/articles/clearfix_block-formatting-context_and_hasLayout.asp">Everything you Know about Clearfix is Wrong</a></h2>
+		<p>Clearfix is a convenient way to contain floats without adding anything to the structural markup. Instead of adding a "clear:both" tag before the element's closing tag, the same thing can be done using css. In Internet Explorer, clearfix triggers a different construct/formatting than in other modern browsers, giving the element a layout.</p>
+
+		<h2><a href="http://themergency.com/css-clearfix-demystified/">CSS Clearfix Demystified</a></h2>
+		<p>This article discusses the progression of how developers have adapted their code when attempting to clear floats. Originally, clear:both was used in the containing section. However, adding extra HTML markup for layout and positioning reasons is frowned upon by some, so Clearfix was introduced as a css feature. However, since older versions of IE don't support it, Micro clearfix was introduced. Basically, it's a newer method that works across all modern browsers. You add a small amount of css and set a class="cf" on the container section and it works the same as the previous methods with less headaches.</p>

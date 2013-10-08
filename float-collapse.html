@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Float Collapse: What I Learned</title>
+	</head>
+
+	<body>
+		<h1>Float Collapse</h1>
+		<h2><a href="http://css-tricks.com/all-about-floats/">All About Floats</a></h2>
+		<p>Floats can have an effect on their parent element. Different sections, like aside, sidebar, image, etc. can all be told to either honor or ignore the text wrap. If the image is part of the page flow, the text will accommodate the element and go around it. Otherwise, the text will go over the element like it doesn't exist. Clear is a property that removes the float property from an element. It also has four modifications: both, left, right, none, and inherit. There are also other methods for clearing floats. The empty div method (not recommmended), the overflow method, and the easy clearing method. There are different situations when one makes more sense than the other.</p>
+
+		<h2><a href="http://alistapart.com/article/css-floats-101">CSS Floats 101</a></h2>
+		<p>Float collapse occurs when floated elements within a parent element aren't completely surrounded by the parent as it would be if they were not floated. By using clear, overflow, or contain floats, the problem can usually be eliminated. Also, a good rule to follow is float first--place the floated elements first in the markup, before any not floated elements that the flow interacts with.</p>

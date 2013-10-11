@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML Reflow</title>
+	</head>
+
+	<body>
+		<h1>HTML Reflow</h1>
+
+		<h2><a href="http://ajaxian.com/archives/browser-reflows-how-do-they-affect-performance">Browser Reflows And Repaints; How do they affect performance?</a><h2>
+
+		<p>When changes are made to the elements of a webchange that affects the visibility, but not the layout, this is called a repaint. Some examples of this could be outline, visibility, or background color. Reflows, on the contrary, affects the layout portion of the page. When an element is reflowed, all of its child and ancestor elements will also be reflowed, as well as elements that follow it in the DOM. Things that can cause a reflow could be: changing the font, adding or removing a stylesheet, resizing the window, or manipulating the class attribute.</p>
+
+		<h2><a href="https://developers.google.com/speed/articles/reflow">Minimizing Browser Reflow</a><h2>
+
+		<p>When a browser re-calculates the positions and geometries of the elements that are contained within the document in order to re-render the document, it's called reflow. It's important to try and reduce reflow time, to increase the speed of your website. Not all changes to the style in JavaScript will cause a reflow in browsers, and reflow time can vary. The article outlines a few ways to minimize reflow, including reducing unnecessary DOM depth, minimizing CSS rules, removing unused CSS rules, and avoiding unnecessary CSS selectors.</p>
